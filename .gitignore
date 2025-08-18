@@ -1,0 +1,30 @@
+# macOS
+.DS_Store
+
+# CMake build directories
+**/cmake-build-debug/
+/build/
+/build-*/
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Testing/
+Makefile
+cmake_install.cmake
+*.ninja
+*.o
+*.obj
+*.a
+*.so
+*.dylib
+*.exe
+
+# VSCode / CLion
+.idea/
+.vscode/
+
+# Logs
+*.log
+
+# Misc
+*.swp
