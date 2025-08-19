@@ -1,0 +1,4 @@
+cmake_minimum_required(VERSION 3.10)
+project(Bai18 C)
+set(CMAKE_C_STANDARD 11)
+add_executable(Bai18 main.c)
